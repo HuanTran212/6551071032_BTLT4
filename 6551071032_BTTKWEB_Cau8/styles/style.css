@@ -1,0 +1,33 @@
+h2{
+  text-align: center;
+  color: green;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+}
+td{
+  border: 1px solid green;
+  padding: 3px;
+  color: green;
+}
+td button{
+  display: block;
+  margin: 0 auto;
+}
+.dk{
+  color: red;
+  text-align: center;
+}
+.vua{
+  width: 150px;
+}
+.nganvua{
+  width: 110px;
+}
+.ngan{
+  width: 80px;
+}

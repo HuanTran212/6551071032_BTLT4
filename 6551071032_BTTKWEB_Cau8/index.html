@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+
+    <h2>Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+
+    <table>
+      <tr>
+        <td>Họ và tên</td>
+        <td><input type="text" name="fullname"></td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td><input type="text" name="address" class="vua"></td>
+      </tr>
+      <tr>
+        <td>Điện thoại</td>
+        <td><input type="text" name="phone" class="nganvua"></td>
+      </tr>
+      <tr>
+        <td>Phái</td>
+        <td><input type="radio" name="gender">Nam
+            <input type="radio" name="gender">Nữ</td>
+      </tr>
+      <tr>
+        <td>Nghề nghiệp</td>
+        <td><select name="job" id="job">
+          <option value="Giaovien">Giáo viên</option>
+          <option value="Giangvien">Giảng viên</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Chọn sản phẩm tham gia</td>
+        <td><select name="product" multiple>
+          <option>Kem đánh răng</option>
+          <option>Bột giặt</option>
+          <option>Dầu gội đầu</option>
+          <option>Sữa tắm</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Người dự đoán tham gia</td>
+        <td><input type="text" name="guess" class="ngan"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button type="submit" class="bt">Đồng ý</button></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="dk"">Bạn đã đăng ký thành công!!!</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+}
+tr,th,td {
+  border: 2px solid red;
+}
+th,h2 {
+  color: red;
+}
+th {
+  background-color:palegoldenrod;
+}
+#ca {
+  color: white;
+  background-color: red;
+  text-align: right;
+}
+table img {
+  max-width: 100%;   /* không vượt quá chiều rộng ô */
+  height: auto;      /* giữ tỉ lệ ảnh */
+  display: block;    /* tránh khoảng trắng dưới ảnh */
+  margin: 0 auto;    /* căn giữa trong ô */
+}
